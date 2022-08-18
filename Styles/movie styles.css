@@ -1,0 +1,390 @@
+body{
+  background-color: rgb(43, 44, 41);
+}
+
+
+#GOG{
+  background: url("../dataset/1.webp") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#GOG::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#GOG{
+position: relative;
+}
+#GOG > *{
+z-index: 10;
+position: relative;
+}
+
+#uncharted{
+  background: url("../dataset/2.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+
+#uncharted::after{
+    background-color: rgba(0, 0, 0, 0.7);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+#uncharted{
+  position: relative;
+}
+#uncharted > *{
+  z-index: 10;
+  position: relative;
+}
+
+#venom{
+  background: url("../dataset/3.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#venom::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#venom{
+position: relative;
+}
+#venom > *{
+z-index: 10;
+position: relative;
+}
+
+
+#rampage{
+  background: url("../dataset/4.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#rampage::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#rampage{
+position: relative;
+}
+#rampage > *{
+z-index: 10;
+position: relative;
+}
+
+#joker{
+  background: url("../dataset/5.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#joker::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#joker{
+position: relative;
+}
+#joker > *{
+z-index: 10;
+position: relative;
+}
+
+#deadpool{
+  background: url("../dataset/6.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#deadpool::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#deadpool{
+position: relative;
+}
+#deadpool > *{
+z-index: 10;
+position: relative;
+}
+
+#blackwidow{
+  background: url("../dataset/7.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#blackwidow::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#blackwidow{
+position: relative;
+}
+#blackwidow > *{
+z-index: 10;
+position: relative;
+}
+
+#transformers{
+  background: url("../dataset/8.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  font-weight: bolder;
+}
+#transformers::after{
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#transformers{
+position: relative;
+}
+#transformers > *{
+z-index: 10;
+position: relative;
+}
+
+.ft{
+  background-color: rgb(32, 33, 31);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0;
+}
+.achievement  li{
+  list-style: none;
+}
+
+.ft{
+  background-color: rgb(32, 33, 31);
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.foot{
+  padding-bottom: 15px;
+}
+
+
+/* Media-1 */
+
+@media(max-width:400px) and (min-width: 300px) {
+  #GOG{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #GOG::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  #uncharted{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #uncharted::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  #venom{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #venom::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  #rampage{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #rampage::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  #joker{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #joker::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  #deadpool{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #deadpool::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  #blackwidow{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #blackwidow::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  #transformers{
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #transformers::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .movieDescription{
+    margin-top: 5px;
+    margin-left: -3%;
+  } 
+  .ft{
+    background-color: rgb(32, 33, 31);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: -35%; 
+  }
+ 
+  
+}
+
+/* Media-2 */
+@media(max-width:300px) and (min-width: 200px) {
+  #GOG{
+    background: url("../dataset/1.webp") no-repeat;
+    background-size: contain;
+    height: 450px;
+    color: white;
+    font-weight: bolder;
+  }
+  #GOG::after{
+    background-color: rgb(43, 44, 41);
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    height: 100%;
+    z-index: 10;
+  }
+  .movieDescription{
+    margin-top: 0;
+    margin-left: -3%;
+  } 
+  .ft{
+    background-color: rgb(32, 33, 31);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: -35%; 
+  }
+  
+  
+}
